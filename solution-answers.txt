@@ -1,0 +1,11 @@
+Part A:
+
+The only method implementation in SectionA.java that doesn't match the contract is the implementation of "push" - "public void push(Object o)":
+The contract of the function "push" does not limit the parameter object, due to that, a value of null can be passed to the method which will be added to the top of the stack. Thus breaking the class invariant of "@inv !isEmpty() implies top() != null" as "!isEmpty = True && top() == null".
+In order to fix the contract, I suggest to insert the following condition:
+"@pre o != null".
+
+Aside from that, with the fix suggested, all the invariant are kept with the given implementation.
+
+Part B:
+All methods in SectionB can be implemented given the contract.
