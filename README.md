@@ -27,7 +27,7 @@ The validation run compiles the project, executes the maintained regression harn
 
 ## Repository Structure
 
-- `assignment/MISSING_HANDOUT.md`: provenance note explaining that the exact matching handout was not recovered
+- `assignment/MISSING_HANDOUT.md`: background note explaining that the exact matching handout was not recovered
 - `solution-answers.txt`: my recovered written answers
 - `src/partsA-C/`: recovered SectionA, SectionB, Polynomial, and small recovered tester
 - `src/riddles/`: recovered riddle packages, including scaffold files marked in comments
